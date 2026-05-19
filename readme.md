@@ -1,8 +1,8 @@
-# Sprint 1 Task Manager
+# Sprint 2 Task Manager
 
 A responsive Task Manager web application built using HTML, CSS, JavaScript, and Bootstrap.
 
-This project was developed for the TIFC2DEVJAVA-SM-TUC-AS2 Sprint 1 Assessment.
+This project was developed for the TIFC2DEV-SAC Sprint 2 Extra Challenges Assessment.
 
 ## Features
 
@@ -10,11 +10,12 @@ This project was developed for the TIFC2DEVJAVA-SM-TUC-AS2 Sprint 1 Assessment.
 - Task Form validation
 - Task Card layout
 - Task List component
-- 5 sample task cards
 - Dynamic task status change
-- Status dropdown options
-- Bootstrap responsive UI
+- Task priority selection
+- LOW, MEDIUM, URGENT priority levels
+- URGENT tasks highlighted in red
 - Separate JavaScript validation file
+- Responsive Bootstrap UI
 
 ## Technologies Used
 
@@ -62,6 +63,7 @@ Each task card contains:
 - Due Date
 - Status Badge
 - Change Status Button
+- Priority Dropdown
 
 ### Dynamic Status Change
 
@@ -77,18 +79,30 @@ DONE
 ↓  
 TODO  
 
+### Task Priority Levels
+
+Users can select:
+
+- LOW
+- MEDIUM
+- URGENT
+
+### Priority Highlight Feature
+
+- LOW → Default card color
+- MEDIUM → Default card color
+- URGENT → Card background changes to red
+
 ## Assessment Criteria Covered
 
-- Bootstrap Task Form
-- Form field mapping
-- Status dropdown
-- Task card layout
-- Task list component
-- 5 sample task cards
-- JavaScript validation
-- Error messages
-- Separate JS file
-- Responsive design
+- Priority dropdown menu
+- LOW, MEDIUM, URGENT priority options
+- URGENT task highlighting
+- Default background for LOW and MEDIUM
+- Bootstrap responsive design
+- JavaScript functionality
+- Task validation
+- Dynamic status change
 
 ## Team Members
 
